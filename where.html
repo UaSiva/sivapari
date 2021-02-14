@@ -62,6 +62,11 @@ footer {
   color: rgba(255, 255, 255, 0.5);
 }
       
+ .dark-mode {
+  background-color: black;
+  color: white;
+}
+      
 </style>
   </head>
 <body style="background-color:#fff;">
@@ -75,6 +80,9 @@ footer {
 <hr>
 
 <div class="mainpara">
+  
+  <button onclick="myFunction()">Toggle dark mode</button>
+
 
 <h1>Contact</h1>
 <hr class="secLine">
@@ -96,5 +104,11 @@ footer {
 
 
 </div>
+  <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 </body>
 </html>
