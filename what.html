@@ -67,6 +67,33 @@ footer {
   color: white;
 }
        */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.project-card {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #333;
+}
+
+.project-card h3 {
+  margin: 0;
+}
+
+.project-card p {
+  margin: 8px 0;
+}
+
+.project-links img {
+  margin-right: 10px;
+}
+   
 </style>
   </head>
 <body style="background-color:#000;">
@@ -80,7 +107,7 @@ footer {
 <hr>
 
 <div class="mainpara">
-
+<!-- 
 <h1>Projects </h1>
 <hr class="secLine">
 <br><br>
@@ -177,7 +204,170 @@ footer {
 <a href="http://www.sivapari.com" style="color:white" onclick="myFunction()" > <h3><u>This Website</u></h3> </a> 
 <p>
 Designed and Developed a personal website compatible with various devices such as mobiles, tablets and PCs and deployed it in a custom domain.</p>
-<p>( HTML , CSS , JavaScript )</p>
+<p>( HTML , CSS , JavaScript )</p> -->
+
+
+<h1>Projects</h1>
+<hr class="secLine">
+
+<div class="projects-grid">
+
+  <!-- SideCheck -->
+  <div class="project-card">
+    <a href="https://apps.apple.com/us/app/sidecheck/id6736642960" style="color:white">
+      <h3><u>SideCheck</u></h3>
+    </a>
+    <p>A Fact-Check utility iOS / Android phone and tablet app.</p>
+    <p>( SwiftUI , iOS )</p>
+    <div class="project-links">
+      <a href="https://apps.apple.com/us/app/sidecheck/id6736642960">
+        <img src="images/iosapplink.png" height="40" width="160">
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.sivapari.sidecheck">
+        <img src="images/androidapplink.png" height="40" width="160">
+      </a>
+    </div>
+  </div>
+
+  <!-- ATPGems -->
+  <div class="project-card">
+    <a href="https://apps.apple.com/us/app/atpgems/id6736443817" style="color:white">
+      <h3><u>ATPGems</u></h3>
+    </a>
+    <p>A complete SwiftUI based iOS app based on highlights from my favorite tech podcast.</p>
+    <p>( SwiftUI , iOS )</p>
+    <div class="project-links">
+      <a href="https://apps.apple.com/us/app/atpgems/id6736443817">
+        <img src="images/iosapplink.png" height="40" width="160">
+      </a>
+    </div>
+  </div>
+
+  <!-- Random Episode Selector -->
+  <div class="project-card">
+    <a href="https://apps.apple.com/us/app/random-episode-selector/id6736379988" style="color:white">
+      <h3><u>Random Episode Selector</u></h3>
+    </a>
+    <p>A watchOS & iOS app to select a random episode.</p>
+    <p>( SwiftUI , iOS )</p>
+    <div class="project-links">
+      <a href="https://apps.apple.com/us/app/random-episode-selector/id6736379988">
+        <img src="images/iosapplink.png" height="40" width="160">
+      </a>
+    </div>
+  </div>
+
+  <!-- FinalPrice -->
+  <div class="project-card">
+    <a href="https://apps.apple.com/us/app/discounted-price-calculator/id6739493669" style="color:white">
+      <h3><u>FinalPrice: Discounted Price Calculator</u></h3>
+    </a>
+    <p>A watchOS & iOS app for fast discounted price calculations.</p>
+    <p>( SwiftUI , iOS )</p>
+    <div class="project-links">
+      <a href="https://apps.apple.com/us/app/discounted-price-calculator/id6739493669">
+        <img src="images/iosapplink.png" height="40" width="160">
+      </a>
+    </div>
+  </div>
+
+  <!-- PodPicGen -->
+  <div class="project-card">
+    <a href="https://apps.apple.com/us/app/podpicgen/id6748219993" style="color:white">
+      <h3><u>PodPicGen</u></h3>
+    </a>
+    <p>A tool podcasters and orators can use to complement their speech with relevant pictures.</p>
+    <p>( SwiftUI , iOS )</p>
+    <div class="project-links">
+      <a href="https://apps.apple.com/us/app/podpicgen/id6748219993">
+        <img src="images/iosapplink.png" height="40" width="160">
+      </a>
+    </div>
+  </div>
+
+  <!-- ColorSoundBox -->
+  <div class="project-card">
+    <a href="https://apps.apple.com/us/app/colorsoundbox/id6745018202" style="color:white">
+      <h3><u>ColorSoundBox</u></h3>
+    </a>
+    <p>An app to help children with speech impairments communicate effectively.</p>
+    <p>( SwiftUI , iOS )</p>
+    <div class="project-links">
+      <a href="https://apps.apple.com/us/app/colorsoundbox/id6745018202">
+        <img src="images/iosapplink.png" height="40" width="160">
+      </a>
+    </div>
+  </div>
+
+  <!-- Kural-LLM -->
+  <div class="project-card">
+    <a href="https://apps.apple.com/in/app/kural-llm/id6753591872" style="color:white">
+      <h3><u>Kural-LLM</u></h3>
+    </a>
+    <p>Answers to questions grounded on Thirukkural using on-device AI.</p>
+    <p>( SwiftUI , iOS )</p>
+    <div class="project-links">
+      <a href="https://apps.apple.com/in/app/kural-llm/id6753591872">
+        <img src="images/iosapplink.png" height="40" width="160">
+      </a>
+    </div>
+  </div>
+
+  <!-- Recipais -->
+  <div class="project-card">
+    <a href="https://apps.apple.com/in/app/recipais/id6754342892" style="color:white">
+      <h3><u>Recipais</u></h3>
+    </a>
+    <p>Type or speak ingredients to get recipes using on-device AI.</p>
+    <p>( SwiftUI , iOS )</p>
+    <div class="project-links">
+      <a href="https://apps.apple.com/in/app/recipais/id6754342892">
+        <img src="images/iosapplink.png" height="40" width="160">
+      </a>
+    </div>
+  </div>
+
+  <!-- Pic2Plate -->
+  <div class="project-card">
+    <a href="https://apps.apple.com/in/app/pic2plate/id6754592740" style="color:white">
+      <h3><u>Pic2Plate</u></h3>
+    </a>
+    <p>Picture ingredients → get recipes using on-device AI.</p>
+    <p>( SwiftUI , iOS )</p>
+    <div class="project-links">
+      <a href="https://apps.apple.com/in/app/pic2plate/id6754592740">
+        <img src="images/iosapplink.png" height="40" width="160">
+      </a>
+    </div>
+  </div>
+
+  <!-- PositiveToDo -->
+  <div class="project-card">
+    <a href="https://apps.apple.com/in/app/positivetodo/id6754936260" style="color:white">
+      <h3><u>PositiveToDo</u></h3>
+    </a>
+    <p>Task tracking with leadership board + AI motivational buddy.</p>
+    <p>( SwiftUI , iOS )</p>
+    <div class="project-links">
+      <a href="https://apps.apple.com/in/app/positivetodo/id6754936260">
+        <img src="images/iosapplink.png" height="40" width="160">
+      </a>
+    </div>
+  </div>
+
+  <!-- This Website -->
+  <div class="project-card">
+    <a href="http://www.sivapari.com" style="color:white">
+      <h3><u>This Website</u></h3>
+    </a>
+    <p>Designed & developed a fully responsive personal website.</p>
+    <p>( HTML , CSS , JavaScript )</p>
+  </div>
+
+</div>
+
+
+  
 
 <script>
 
